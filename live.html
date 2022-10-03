@@ -3,30 +3,15 @@
 <head>
     <link rel="stylesheet" href="https://unpkg.com/nexmoe.css" />
     <link rel="stylesheet" href="override.css" />
-    <title>CarrotTV | 看见新“视”界</title>
-    <style>
-			article {
-				padding: 2rem;
-			}
-			articlegrid {
-				grid-template-columns: 1fr 1fr;
-				grid-gap: 2rem;
-				display: grid;
-			}
-			@media (max-width: 700px) {
-				articlegrid {
-					grid-template-columns: 1fr;
-				}
-			}
-    </style>
+    <title>观看直播 | CarrotTV</title>
 </head>
 <body>
     <nav>
         <a><h1>CarrotTV</h1></a>
         <ul>
-            <li><a checked="index.html">主页</a></li>
+            <li><a href="index.html">主页</a></li>
             <li>
-                <a href="live.html">观看直播</a>
+                <a checked="live.html">观看直播</a>
                 <ul>
                     <li>
                         <a href="https://live.bilibili.com/4621100" target="_blank">bilibili - 4621100</a>
@@ -50,38 +35,30 @@
         </ul>
     </nav>
 
-    <header>
-        <h2>
-            看见新“视”界
-        </h2>
-        <p>CarrotTV，一个不太一样的直播频道 + 架空放送</p>
-        <p>
-            <a
-                href="live.html"
-            >
-                <button>观看直播</button></a
-            >
-        </p>
-        <br />
-    </header>
-
     <main>
-        <section>
-            <articlegrid>
-                <article>
-                    <h2>为突破而生的架空放送</h2>
-                    <p>
-                        不甘平庸，以设计感 + 零干扰的包装
-                    </p>
-                </article>
-                <article>
-                    <h2>原创节目……</h2>
-                    <p>
-                        ……在做了。
-                    </p>
-                </article>
-            </articlegrid>
-        </section>
+        <h2>观看 CarrotTV 直播</h2>
+        <p>CarrotTV 目前有如下观看方式：</p>
+        <article>
+            <details open>
+                <summary>imgradeone 官方托管</summary>
+            </details>
+            <div>
+                <p>
+                    <a href="live.html"><button>bilibili 直播间 - 4621100</button></a> <a href="https://player.live.huoyinetwork.cn/?id=carrottv-imgradeone&node=data"><button>火毅版（imgradeone 托管）</button></a> <a href="https://odysee.com/@imgradeone:c"><button>Odysee 直播</button></a>
+                </p>
+                    </div>
+        </article><br>
+        <article>
+            <details>
+                <summary>第三方授权运营</summary>
+            </details>
+            <div>
+                <p>
+                    <a href="https://player.live.huoyinetwork.cn/?id=carrottv-imgradeone&node=data"><button>火毅版（BaiVideo 托管）</button></a>
+                </p>
+                <p>请注意：imgradeone 可能无法完全控制这些使用 CarrotTV 标志的第三方授权运营直播频道。<br>CarrotTV 与 imgradeone 也无权为第三方的行为负责。</p>
+            </div>
+        </article>
     </main>
 
     <footer>
