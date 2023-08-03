@@ -1,6 +1,6 @@
 :root {
-	--color-primary: rgb(250, 64, 139) !important;
-	--color-link: #fa4694 !important;
+	--color-primary: #fa408b !important;
+	--color-link: #fa408b !important;
     --color-hover: rgba(250, 64, 139, 0.15) !important;
 }
 
@@ -10,4 +10,13 @@
 		--color-link: #fa71b4 !important;
 		--color-hover: rgba(250, 113, 180, 0.15) !important;
 	}
+}
+
+.vjs-theme-forest {
+	--vjs-theme-forest--primary: #f287bb !important;
+	--vjs-theme-forest--secondary: #fff;
+  }
+
+.vjs-theme-forest .vjs-control:not(.vjs-disabled, .vjs-time-control):hover {
+  text-shadow: none;
 }
