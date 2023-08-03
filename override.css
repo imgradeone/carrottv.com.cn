@@ -13,10 +13,15 @@
 }
 
 .vjs-theme-forest {
-	--vjs-theme-forest--primary: #f287bb !important;
+	--vjs-theme-forest--primary: #fa71b4 !important;
 	--vjs-theme-forest--secondary: #fff;
   }
 
 .vjs-theme-forest .vjs-control:not(.vjs-disabled, .vjs-time-control):hover {
   text-shadow: none;
+}
+
+.vjs-theme-forest:hover .vjs-big-play-button,
+.vjs-theme-forest.vjs-big-play-button:focus {
+  background: svg-load('icons/play-btn.svg', fill=#fa71b4) !important;
 }
