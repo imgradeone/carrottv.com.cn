@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="nexmoe.min.css" />
     <link rel="stylesheet" href="override.css" />
-    <link href="https://vjs.zencdn.net/8.3.0/video-js.css" rel="stylesheet" />
-    <script src="https://vjs.zencdn.net/8.3.0/video.js"></script>
-    <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css" />
+    <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css" />
+    <script src="https://cdn.vidstack.io/player" type="module"></script>
     <link rel="shortcut icon" href="favicon.png">
     <meta name="theme-color" content="#fa408b" />
     <title>VDS LiveStream 直播 | CarrotTV</title>
@@ -20,7 +20,12 @@
     </nav>
 
     <main>
-        <video
+      <media-player title="CarrotTV 直播" src="https://vdsbkup-tcloud-pull.hydun.com/live/CarrotTV.m3u8" playsinline>
+        <media-provider></media-provider>
+        <media-video-layout ></media-video-layout>
+      </media-player>
+
+      <!-- <video
         id="my-video"
         class="video-js vjs-theme-forest"
         controls
@@ -37,7 +42,7 @@
             >supports HTML5 video</a
           >
         </p>
-      </video>
+      </video> -->
       <br>
       <p>
         <a href="https://lsnext.vds.pub/room/CarrotTV">
@@ -49,7 +54,7 @@
     <footer>
         <p>
             ©2023 CarrotTV | Powered by 
-            <a href="https://nexmoe.github.io/nexmoe.css/" target="_blank">Nexmoe.css</a> & Video.js | Livestream service provided by <a href="https://lsnext.vds.pub/">VDS LiveStream</a>
+            <a href="https://nexmoe.github.io/nexmoe.css/" target="_blank">Nexmoe.css</a> & VidStack | Livestream service provided by <a href="https://lsnext.vds.pub/">VDS LiveStream</a>
         </p>
     </footer>
 </body>
