@@ -31,12 +31,12 @@
 }
 
 .vds-time-slider .vds-slider-track-fill {
-	background: linear-gradient(to right, #FFC7E2, #FFE562);
+	background: linear-gradient(to right, #FFE3F0, 12%, #FFC7E2, 80%, #FFE562);
 }
 
 .vds-live-button[data-edge] .vds-live-button-text {
     background-color: #fa408b !important;
-    color: #f5f5f5;
+    color: #ffffff !important;
 }
 /* 
 .vds-slider .vds-slider-track-fill {
