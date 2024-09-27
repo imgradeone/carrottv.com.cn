@@ -52,7 +52,7 @@
 }
 
 .vds-time-slider .vds-slider-progress {
-	background: linear-gradient(to right, rgb(255 229 98 / .1), 90%, rgb(255 229 98 / .7))  !important;
+	background: linear-gradient(to right, rgb(255 229 98 / .15), 92%, rgb(255 229 98 / .63))  !important;
 }
 
 [data-media-player][data-layout=video]:not([data-fullscreen]) {
