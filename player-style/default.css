@@ -1,0 +1,18 @@
+.vds-time-slider .vds-slider-track-fill {
+	background: linear-gradient(to right, #FA71B4, 12%, #fa408b, 80%, #FFE562);
+}
+
+.vds-live-button[data-edge] .vds-live-button-text {
+    background-color: #fa408b !important;
+    color: #ffffff !important;
+}
+
+:where(.vds-menu-items) {
+	--checkbox-active-bg: var(--color-primary) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+	.vds-time-slider .vds-slider-track-fill {
+		background: linear-gradient(to right, #FFE3F0, 12%, #FFC7E2, 80%, #FFE562) !important;
+	}
+}
