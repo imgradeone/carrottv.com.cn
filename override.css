@@ -83,5 +83,12 @@
 
 button {
 	font-family: var(--webpage-font) !important;
-	font-feature-settings: 'liga', 'calt', 'ss01', 'cv05', 'cv06', 'cv11', 'cv13';
+}
+
+a, button, nav, h1, h2, h3, h4, h5, h6 {
+	font-feature-settings: 'liga', 'calt', 'ss01', 'cv05', 'cv06', 'cv11', 'cv13', 'zero';
+}
+
+nav a[target="_blank"]::after, footer a[target="_blank"]::after {
+    content: " ↗";
 }
