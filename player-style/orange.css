@@ -3,7 +3,7 @@
 }
 
 .vds-live-button[data-edge] .vds-live-button-text {
-    background-color: #fa408b !important;
+    background-color: #FB8F06 !important;
     color: #ffffff !important;
 }
 
@@ -13,6 +13,6 @@
 
 @media (prefers-color-scheme: dark) {
 	.vds-time-slider .vds-slider-track-fill {
-		background: linear-gradient(to right, #FFF1DF, 12%, #FED8A8, 80%, #FFE562) !important;
+		background: linear-gradient(to right, #ffdbab, 12%, #ffc987, 80%, #FFE562) !important;
 	}
 }

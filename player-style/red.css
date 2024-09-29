@@ -1,9 +1,9 @@
 .vds-time-slider .vds-slider-track-fill {
-	background: linear-gradient(to right, #FF8C8D, 12%, #FD344C, 80%, #FFE562);
+	background: linear-gradient(to right, #f66265, 12%, #FD344C, 80%, #FFE562);
 }
 
 .vds-live-button[data-edge] .vds-live-button-text {
-    background-color: #fa408b !important;
+    background-color: #FD344C !important;
     color: #ffffff !important;
 }
 

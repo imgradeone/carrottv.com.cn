@@ -3,8 +3,8 @@
 }
 
 .vds-live-button[data-edge] .vds-live-button-text {
-    background-color: #fa408b !important;
-    color: #ffffff !important;
+    background-color: #00C4F0 !important;
+    color: #000000 !important;
 }
 
 :where(.vds-menu-items) {

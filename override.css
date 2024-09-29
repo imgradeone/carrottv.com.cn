@@ -2,7 +2,18 @@
 	--color-primary: #fa408b !important;
 	--color-link: #fa408b !important;
     --color-hover: rgba(250, 64, 139, 0.15) !important;
+
+	font-family: Inter, "MiSans Normal", sans-serif;
 }
+
+@supports (font-variation-settings: normal) {
+    :root { font-family: InterVariable, "MiSans Normal", sans-serif; }
+}
+
+/* body {
+	font-family: "MiSans Normal";
+	font-weight: normal;
+} */
 
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -15,9 +26,9 @@
 		background-image: url(./img/atvds-white.png);
 	} */
 
-	.vds-time-slider .vds-slider-track-fill {
+	/* .vds-time-slider .vds-slider-track-fill {
 		background: linear-gradient(to right, #FFE3F0, 12%, #FFC7E2, 80%, #FFE562) !important;
-	}
+	} */
 }
 /* 
 .vjs-theme-forest {
@@ -50,3 +61,12 @@
 [data-media-player][data-layout=video]:not([data-fullscreen]) {
     border: none !important;
 }
+
+/* [data-media-player][data-layout=video] {
+    background-color: var(--color-bg) !important;
+} */
+
+/* footer {
+	margin: 50px auto;
+	max-width: 960px;
+} */
