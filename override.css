@@ -3,11 +3,17 @@
 	--color-link: #fa408b !important;
     --color-hover: rgba(250, 64, 139, 0.15) !important;
 
-	font-family: Inter, "MiSans Normal", sans-serif;
+	--webpage-font: Inter, "MiSans Normal", sans-serif;
+	--webpage-font-variable: InterVariable, "MiSans Normal", sans-serif;
+	font-family: var(--webpage-font);
+	font-feature-settings: 'liga', 'calt', 'ss01', 'cv05', 'cv06', 'cv11', 'cv13';
 }
 
 @supports (font-variation-settings: normal) {
-    :root { font-family: InterVariable, "MiSans Normal", sans-serif; }
+    :root { 
+		font-family: var(--webpage-font-variable);
+		/* font-feature-settings: 'liga' 1, 'calt' 1, 'ss01' 1, 'cv05' 1, 'cv06' 1; */
+	}
 }
 
 /* body {
@@ -70,3 +76,7 @@
 	margin: 50px auto;
 	max-width: 960px;
 } */
+
+:where(.vds-video-layout) {
+	--media-font-family: var(--webpage-font) !important;
+}
