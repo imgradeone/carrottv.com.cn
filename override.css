@@ -80,3 +80,8 @@
 :where(.vds-video-layout) {
 	--media-font-family: var(--webpage-font) !important;
 }
+
+button {
+	font-family: var(--webpage-font) !important;
+	font-feature-settings: 'liga', 'calt', 'ss01', 'cv05', 'cv06', 'cv11', 'cv13';
+}
