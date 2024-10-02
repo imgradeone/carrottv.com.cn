@@ -9,7 +9,7 @@
 	--webpage-font: Inter, "MiSans Normal", sans-serif;
 	--webpage-font-variable: InterVariable, "MiSans Normal", sans-serif;
 	font-family: var(--webpage-font);
-	font-feature-settings: 'liga', 'calt', 'ss01', 'cv05', 'cv06', 'cv11', 'cv13';
+	font-feature-settings: 'liga', 'calt', 'ss01', 'ss03', 'cv05', 'cv06', 'cv11', 'cv13';
 }
 
 @supports (font-variation-settings: normal) {
@@ -74,7 +74,7 @@ button {
 }
 
 a, button, nav, h1, h2, h3, h4, h5, h6, .vds-chapter-title {
-	font-feature-settings: 'liga', 'calt', 'ss01', 'cv05', 'cv06', 'cv11', 'cv13', 'zero';
+	font-feature-settings: 'liga', 'calt', 'ss01', 'ss03', 'cv05', 'cv06', 'cv11', 'cv13', 'zero';
 }
 
 nav a[target="_blank"]::after, footer a[target="_blank"]::after {
