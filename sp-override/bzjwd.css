@@ -109,6 +109,10 @@ article {
 	box-shadow: 9px 9px #026FC5;
 }
 
+article#warning {
+	border: 6px solid #FED606;
+}
+
 article a {
 	color: #fa408b;
 	text-decoration: none;
