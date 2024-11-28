@@ -113,6 +113,10 @@ article#warning {
 	border: 6px solid #FED606;
 }
 
+article#forbid {
+	border: 6px solid #fb7576;
+}
+
 article a {
 	color: #fa408b;
 	text-decoration: none;
