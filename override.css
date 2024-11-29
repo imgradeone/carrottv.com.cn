@@ -46,6 +46,10 @@ img {
 	border-radius: 0 !important;
 	box-shadow: none !important;
 }
+
+article {
+	box-shadow: none;
+}
 /* 
 .vjs-theme-forest {
 	--vjs-theme-forest--primary: #fa71b4 !important;
