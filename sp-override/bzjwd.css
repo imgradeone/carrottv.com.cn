@@ -89,6 +89,10 @@ footer nav a {
 	text-decoration: none !important;
 }
 
+footer nav a[target="_blank"]::after{
+	content: none !important;
+}
+
 main a {
 	text-decoration: underline;
 }
