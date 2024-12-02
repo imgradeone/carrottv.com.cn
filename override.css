@@ -110,6 +110,10 @@ nav a[target="_blank"]::after, footer a[target="_blank"]::after {
     content: " ↗";
 }
 
+footer nav a[target="_blank"]::after{
+	content: none !important;
+}
+
 header#notice {
     background-color: var(--color-primary);
 	color: var(--color-bg);
