@@ -68,3 +68,7 @@ article {
 	border: 3px solid var(--color-primary);
 	box-shadow: none;
 }
+
+footer nav a[target="_blank"]::after{
+	content: none !important;
+}
