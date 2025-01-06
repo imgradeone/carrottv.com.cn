@@ -108,6 +108,10 @@ header#notice a {
 	text-decoration: underline;
 }
 
+p#underline a {
+	text-decoration: underline;
+}
+
 article {
 	border-radius: 0 !important;
 	overflow: hidden;
