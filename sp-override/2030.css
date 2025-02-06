@@ -9,11 +9,11 @@
 	font-feature-settings: 'liga', 'calt', 'ss01', 'ss03', 'cv05', 'cv06', 'cv11', 'cv13';
 }
 
-@supports (font-variation-settings: normal) {
+/* @supports (font-variation-settings: normal) {
     :root { 
 		font-family: var(--webpage-font-variable);
 	}	
-}
+} */
 
 
 @media (prefers-color-scheme: dark) {
