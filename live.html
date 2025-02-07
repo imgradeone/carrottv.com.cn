@@ -6,15 +6,35 @@
     <link rel="stylesheet" href="nexmoe.min.css" />
     <link rel="stylesheet" href="override.css" />
     <link rel="stylesheet" href="sp-override/spring-festival.css" />
-    <link rel="stylesheet" href="player-style/default.css" />
+    <!-- <link rel="stylesheet" href="player-style/default.css" />
     <link rel="stylesheet" href="https://cdn.vidstack.io/player/theme.css" />
     <link rel="stylesheet" href="https://cdn.vidstack.io/player/video.css" />
-    <script src="https://cdn.vidstack.io/player" type="module"></script>
+    <script src="https://cdn.vidstack.io/player" type="module"></script> -->
     <link rel="stylesheet" href="https://jsd.hydun.com/npm/misans-webfont/misans-style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
     <link rel="shortcut icon" href="favicon.png">
     <meta name="theme-color" content="#fa408b" />
+    <style>
+      .iframe-container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      .iframe-container iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        display: block;
+        border: none;
+      }
+      @media (max-width: 600px) {
+        .iframe-container iframe {
+          aspect-ratio: 10 / 16;
+        }
+      }
+    </style>
     <title>观看直播 | CarrotTV</title>
 </head>
 <body>
@@ -65,19 +85,21 @@
           </li> -->
           <li><a href="https://4621100.xyz" target="_blank">4621100</a></li>
       </ul>
-  </nav>
+    </nav>
+
+    <div class="iframe-container">
+      <iframe id="liveIframe" allowfullscreen>
+      </iframe>
+    </div>
+
+    <script>
+      const appId = "vap_9TqWZXU3dL";
+      const now = Math.floor(Date.now() / 1000);
+      const finalUrl = `https://livescope.tv/embed/${appId}-${now}`;
+      document.getElementById("liveIframe").src = finalUrl;
+    </script>
 
     <main>
-      <!-- <nav>
-        <ul>
-          <li>
-            <a checked="live.html">CarrotTV</a>
-          </li>
-          <li>
-            <a href="live-vds1.html">VDS1（测试页面）</a>
-          </li>
-        </ul>
-      </nav> -->
       <!-- <media-player title="CarrotTV 直播" src="https://play.livescope.hydun.com/live/CarrotTV.m3u8" playsinline stream-type="live">
         <media-provider>
           <media-poster
@@ -87,21 +109,16 @@
         </media-provider>
         <media-video-layout></media-video-layout>
       </media-player> -->
-
-      <!-- <br>
       <p>
-        直播服务由 <a href="https://livescope.tv">LiveScope</a> 提供。
-      </p> -->
-      <!-- <p>
-        CarrotTV（直播频道）并没有固定的直播时间。当你打开这个页面时，CarrotTV（直播频道）可能并没有开播。
+        直播服务与播放器嵌入由 <a href="https://livescope.tv">LiveScope</a> 提供。
       </p>
       <p>
+        CarrotTV（直播频道）并没有固定的直播时间。当你打开这个页面时，CarrotTV（直播频道）可能并没有开播。
+      </p>
+      <!-- <p>
         当前播放器页面使用的 Vidstack 播放器从 jsDelivr CDN 加载，但 jsDelivr CDN 在部分地区可能无法正常连接。<br>如果播放器未能出现，您可以选择访问 LiveScope 观看，或进入 <a href="live-backup.html">备份播放器</a> 页面。<br><br>
         如果您在等待超过 10 秒后，仍然发现直播在加载，那很可能 CarrotTV 并没有开始进行直播。您可以进入 LiveScope 页面确定直播状态。
       </p> -->
-      <p>
-        CarrotTV 暂时无法在官网提供线上直播观看，请您前往 <a href="https://livescope.tv/room/CarrotTV">LiveScope</a> 观看 CarrotTV 的线上直播。给您带来不便，敬请谅解。
-      </p>
       <p>
         在 LiveScope 中观看 CarrotTV，可获取开播状态，并获得更好的互动体验。
       </p>
