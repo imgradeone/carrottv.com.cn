@@ -3,8 +3,8 @@
 	--color-link: #fa408b !important;
     --color-hover: rgba(250, 64, 139, 0.15) !important;
 
-	--webpage-font: Inter, "MiSans Normal", sans-serif;
-	--webpage-font-variable: InterVariable, "MiSans Normal", sans-serif;
+	--webpage-font: Inter, ui-sans-serif;
+	--webpage-font-variable: InterVariable, ui-sans-serif;
 	font-family: var(--webpage-font);
 	font-feature-settings: 'liga', 'calt', 'ss01', 'ss03', 'cv05', 'cv06', 'cv11', 'cv13';
 }
